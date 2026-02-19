@@ -1,0 +1,198 @@
+You are a senior frontend engineer building a clean, minimal hackathon dashboard.
+
+Project name: Mission Control – AI Assistant for Team Leads
+
+The goal is to build a single-page dashboard that aggregates signals from:
+	•	Emails
+	•	Slack / messages
+	•	Project updates (Jira)
+	•	Deadlines
+
+The dashboard should NOT separate content by tool.
+Instead, it should present a unified AI-prioritized view, with optional filters.
+
+Keep the UI modern, minimal, and executive-level.
+
+⸻
+
+🏗 Tech Stack
+	•	React
+	•	TypeScript
+	•	TailwindCSS
+	•	Simple chart library (Recharts)
+	•	Backend: FastAPI (REST returning JSON)
+
+Use clean, modular component structure.
+
+⸻
+
+🎨 Design Principles
+	•	Minimal and focused
+	•	Clear visual hierarchy
+	•	Calm UI with subtle alert colors
+	•	Important signals stand out
+	•	No clutter
+	•	No excessive animations
+	•	Feels like an executive briefing
+
+⸻
+
+📊 Dashboard Layout
+
+Create a single page with the following sections:
+
+⸻
+
+1️⃣ Snapshot Summary (Top Row)
+
+Display 4 metric cards:
+	•	🔥 Urgent Items (number)
+	•	⚠️ Risks Detected (number)
+	•	📅 Upcoming Deadlines (number)
+	•	📊 Execution Health (Good / Stable / At Risk)
+
+Keep these compact and visually clean.
+
+⸻
+
+2️⃣ Important Signals (Main Section – Unified View)
+
+This is the core section.
+
+Display AI-prioritized signal cards aggregated from all tools.
+
+Each card must show:
+	•	Title
+	•	Source badge (Email / Slack / Jira)
+	•	Category badge (Urgent / Deadline / Blocker / Update)
+	•	Short AI summary (2 lines max)
+	•	Urgency level (color coded)
+	•	Deadline (if applicable)
+
+Cards should be scannable and clean.
+
+⸻
+
+Filter Bar (Above Important Signals)
+
+Add simple filter chips:
+
+Filter by Source:
+[ All ] [ Email ] [ Slack ] [ Jira ]
+
+Filter by Category:
+[ All ] [ Urgent ] [ Deadlines ] [ Blockers ] [ Updates ]
+
+Filters should dynamically filter the signal list.
+
+Default view = All.
+
+⸻
+
+3️⃣ Latest Activity Feed (Small Section)
+
+A lightweight chronological list showing:
+	•	Short message/update preview
+	•	Source badge
+	•	Timestamp
+
+This is not prioritized — just awareness.
+
+Keep it compact.
+
+⸻
+
+4️⃣ Emerging Risks
+
+Display a highlighted insight card with:
+	•	AI-generated risk summary paragraph
+
+Example:
+
+“Repeated blocker mentions in API integration and two deadline shifts detected this week.”
+
+This should visually stand out but remain minimal.
+
+⸻
+
+5️⃣ Execution Health (Team Efficiency)
+
+Keep this simple.
+
+Display:
+	•	Small 7-day sentiment trend line chart
+	•	2–3 bullet insights such as:
+	•	“Blocker mentions increased this week.”
+	•	“Urgency signals trending upward.”
+	•	“No major overload patterns detected.”
+
+Do NOT show individual productivity metrics.
+
+This section reflects operational stability, not employee scoring.
+
+⸻
+
+6️⃣ Recommended Actions (High Importance)
+
+Display 3 AI-recommended actions.
+
+Each action card should show:
+	•	Title
+	•	Short explanation
+	•	Priority label (High / Medium / Low)
+
+This section should feel like:
+“AI briefing the team lead.”
+
+⸻
+
+📡 Expected API Contract
+
+Assume backend returns:
+
+GET /mission-control
+
+Response:
+
+{
+“snapshot”: {
+“urgent_count”: 3,
+“risk_count”: 2,
+“deadlines_count”: 4,
+“execution_health”: “At Risk”
+},
+“signals”: [
+{
+“id”: “1”,
+“title”: “Client approval delayed”,
+“source”: “email”,
+“category”: “deadline”,
+“summary”: “Client delay may impact sprint timeline.”,
+“urgency”: “high”,
+“deadline”: “2026-02-21”
+}
+],
+“latest_activity”: [
+{
+“id”: “a1”,
+“text”: “Still blocked on API access”,
+“source”: “slack”,
+“timestamp”: “2026-02-19T09:30:00”
+}
+],
+“emerging_risks”: “Multiple blocker mentions related to API integration may affect delivery timelines.”,
+“execution_health”: {
+“sentiment_trend”: [0.1, 0.0, -0.1, -0.2, -0.3, -0.2, -0.4],
+“insights”: [
+“Blocker mentions increased compared to last week.”,
+“Urgency signals trending upward.”
+]
+},
+“recommended_actions”: [
+{
+“title”: “Align API and Frontend teams”,
+“description”: “Schedule short sync to unblock integration issues.”,
+“priority”: “High”
+}
+]
+}
