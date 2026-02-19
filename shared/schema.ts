@@ -1,18 +1,50 @@
-import { sql } from "drizzle-orm";
-import { pgTable, text, varchar } from "drizzle-orm/pg-core";
-import { createInsertSchema } from "drizzle-zod";
 import { z } from "zod";
 
-export const users = pgTable("users", {
-  id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
-  username: text("username").notNull().unique(),
-  password: text("password").notNull(),
+export const snapshotSchema = z.object({
+  urgent_count: z.number(),
+  risk_count: z.number(),
+  deadlines_count: z.number(),
+  execution_health: z.string()
 });
 
-export const insertUserSchema = createInsertSchema(users).pick({
-  username: true,
-  password: true,
+export const signalSchema = z.object({
+  id: z.string(),
+  title: z.string(),
+  source: z.string(),
+  category: z.string(),
+  summary: z.string(),
+  urgency: z.string(),
+  deadline: z.string().optional()
 });
 
-export type InsertUser = z.infer<typeof insertUserSchema>;
-export type User = typeof users.$inferSelect;
+export const activitySchema = z.object({
+  id: z.string(),
+  text: z.string(),
+  source: z.string(),
+  timestamp: z.string()
+});
+
+export const executionHealthSchema = z.object({
+  sentiment_trend: z.array(z.number()),
+  insights: z.array(z.string())
+});
+
+export const actionSchema = z.object({
+  title: z.string(),
+  description: z.string(),
+  priority: z.string()
+});
+
+export const dashboardDataSchema = z.object({
+  snapshot: snapshotSchema,
+  signals: z.array(signalSchema),
+  latest_activity: z.array(activitySchema),
+  emerging_risks: z.string(),
+  execution_health: executionHealthSchema,
+  recommended_actions: z.array(actionSchema)
+});
+
+export type DashboardData = z.infer<typeof dashboardDataSchema>;
+export type Signal = z.infer<typeof signalSchema>;
+export type Activity = z.infer<typeof activitySchema>;
+export type Action = z.infer<typeof actionSchema>;
