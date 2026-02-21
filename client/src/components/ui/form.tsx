@@ -1,15 +1,13 @@
-"use client"
-
 import * as React from "react"
 import * as LabelPrimitive from "@radix-ui/react-label"
 import { Slot } from "@radix-ui/react-slot"
 import {
   Controller,
+  ControllerProps,
+  FieldPath,
+  FieldValues,
   FormProvider,
   useFormContext,
-  type ControllerProps,
-  type FieldPath,
-  type FieldValues,
 } from "react-hook-form"
 
 import { cn } from "@/lib/utils"
@@ -83,7 +81,8 @@ const FormItem = React.forwardRef<
       <div ref={ref} className={cn("space-y-2", className)} {...props} />
     </FormItemContext.Provider>
   )
-})
+}
+)
 FormItem.displayName = "FormItem"
 
 const FormLabel = React.forwardRef<
@@ -147,7 +146,7 @@ const FormMessage = React.forwardRef<
   React.HTMLAttributes<HTMLParagraphElement>
 >(({ className, children, ...props }, ref) => {
   const { error, formMessageId } = useFormField()
-  const body = error ? String(error?.message ?? "") : children
+  const body = error ? String(error?.message) : children
 
   if (!body) {
     return null
@@ -171,8 +170,8 @@ export {
   Form,
   FormItem,
   FormLabel,
+  FormField,
+  FormMessage,
   FormControl,
   FormDescription,
-  FormMessage,
-  FormField,
 }
