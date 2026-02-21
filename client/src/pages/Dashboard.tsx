@@ -35,8 +35,8 @@ export default function Dashboard() {
 
   // Filter signals
   const filteredSignals = data.signals.filter(s => {
-    const matchesSource = filterSource === "All" || s.source === filterSource;
-    const matchesCategory = filterCategory === "All" || s.category === filterCategory;
+    const matchesSource = filterSource === "All" || s.source.toLowerCase() === filterSource.toLowerCase();
+    const matchesCategory = filterCategory === "All" || s.category.toLowerCase() === filterCategory.toLowerCase() || (filterCategory === "Deadlines" && s.category.toLowerCase() === "deadline") || (filterCategory === "Blockers" && s.category.toLowerCase() === "blocker");
     return matchesSource && matchesCategory;
   });
 
