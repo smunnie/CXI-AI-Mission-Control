@@ -59,7 +59,7 @@ mission-control/
 │
 ├── frontend/
 │   ├── src/
-│   ├── package.json  
+│   ├── package.json 
 │
 └── README.md
 
