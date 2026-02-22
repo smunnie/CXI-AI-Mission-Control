@@ -1,0 +1,142 @@
+[
+    {
+      "id": "email_1",
+      "from": "client@acme.com",
+      "to": ["product@company.com"],
+      "cc": ["alice@company.com", "bob@company.com"],
+      "subject": "Revisions required before final approval",
+      "body": "After reviewing the latest build of Project Phoenix, we need additional changes to the payment flow. This may impact the planned beta launch timeline.",
+      "attachments": [
+        {
+          "filename": "Revised_Scope_v3.pdf",
+          "type": "pdf",
+          "size_kb": 420
+        }
+      ],
+      "timestamp": "2026-02-17T09:10:00",
+      "mail_link": "https://mail.company.com/email/email_1"
+    },
+    {
+      "id": "email_2",
+      "from": "cto@company.com",
+      "to": ["engineering@company.com"],
+      "cc": ["alice@company.com"],
+      "subject": "Urgent: API stability concerns",
+      "body": "We’ve received multiple reports about intermittent API failures in staging. Please prioritize investigating this before Friday.",
+      "attachments": [],
+      "timestamp": "2026-02-18T13:45:00",
+      "mail_link": "https://mail.company.com/email/email_2"
+    },
+    {
+      "id": "email_3",
+      "from": "marketing@company.com",
+      "to": ["clara@company.com"],
+      "cc": [],
+      "subject": "Landing page readiness for campaign",
+      "body": "Can you confirm if the Website Redesign landing page will be ready by Friday? Campaign launch depends on it.",
+      "attachments": [],
+      "timestamp": "2026-02-18T16:20:00",
+      "mail_link": "https://mail.company.com/email/email_3"
+    },
+    {
+      "id": "email_4",
+      "from": "client@betaapp.io",
+      "to": ["daniel@company.com"],
+      "cc": ["product@company.com", "cto@company.com"],
+      "subject": "Performance concerns on dashboard prototype",
+      "body": "Overall progress looks good, but performance feels slower than expected. We’re concerned this could impact user adoption.",
+      "attachments": [
+        {
+          "filename": "performance_metrics.xlsx",
+          "type": "xlsx",
+          "size_kb": 980
+        }
+      ],
+      "timestamp": "2026-02-19T08:55:00",
+      "mail_link": "https://mail.company.com/email/email_4"
+    },
+    {
+      "id": "email_5",
+      "from": "finance@company.com",
+      "to": ["product@company.com"],
+      "cc": ["cto@company.com"],
+      "subject": "Budget implications of scope expansion",
+      "body": "The recent scope additions in Project Phoenix may exceed the allocated budget. Please review and confirm.",
+      "attachments": [
+        {
+          "filename": "Budget_Projection_Q1.xlsx",
+          "type": "xlsx",
+          "size_kb": 650
+        }
+      ],
+      "timestamp": "2026-02-19T10:15:00",
+      "mail_link": "https://mail.company.com/email/email_5"
+    },
+    {
+      "id": "email_6",
+      "from": "qa@company.com",
+      "to": ["engineering@company.com"],
+      "cc": ["alice@company.com"],
+      "subject": "Blocking issue found in payment integration",
+      "body": "During testing, we identified a blocking issue in the payment API integration. Users are unable to complete transactions.",
+      "attachments": [
+        {
+          "filename": "error_logs.txt",
+          "type": "txt",
+          "size_kb": 120
+        }
+      ],
+      "timestamp": "2026-02-19T11:05:00",
+      "mail_link": "https://mail.company.com/email/email_6"
+    },
+    {
+      "id": "email_7",
+      "from": "client@acme.com",
+      "to": ["product@company.com"],
+      "cc": ["clara@company.com"],
+      "subject": "Additional design revisions",
+      "body": "We have a few more design changes for the Website Redesign. Please see attached mockups.",
+      "attachments": [
+        {
+          "filename": "Homepage_v4.fig",
+          "type": "fig",
+          "size_kb": 300
+        }
+      ],
+      "timestamp": "2026-02-19T12:40:00",
+      "mail_link": "https://mail.company.com/email/email_7"
+    },
+    {
+      "id": "email_8",
+      "from": "operations@company.com",
+      "to": ["engineering@company.com"],
+      "cc": [],
+      "subject": "Server load increasing in staging",
+      "body": "We are seeing increased server load in staging over the last 48 hours. This could affect performance testing.",
+      "attachments": [],
+      "timestamp": "2026-02-19T14:10:00",
+      "mail_link": "https://mail.company.com/email/email_8"
+    },
+    {
+      "id": "email_9",
+      "from": "product@company.com",
+      "to": ["engineering@company.com"],
+      "cc": ["marketing@company.com"],
+      "subject": "Deadline reminder for Beta Launch",
+      "body": "Reminder that the Beta Launch milestone for Project Phoenix is scheduled for February 22. Please confirm readiness.",
+      "attachments": [],
+      "timestamp": "2026-02-19T15:20:00",
+      "mail_link": "https://mail.company.com/email/email_9"
+    },
+    {
+      "id": "email_10",
+      "from": "hr@company.com",
+      "to": ["cto@company.com"],
+      "cc": [],
+      "subject": "Team workload feedback",
+      "body": "We’ve received informal feedback that the backend team feels overloaded this sprint due to multiple urgent tasks.",
+      "attachments": [],
+      "timestamp": "2026-02-19T16:00:00",
+      "mail_link": "https://mail.company.com/email/email_10"
+    }
+  ]

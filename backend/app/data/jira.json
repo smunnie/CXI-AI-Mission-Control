@@ -1,0 +1,433 @@
+[
+    {
+      "id": "jira_1",
+      "title": "Integrate Payment API",
+      "description": "Complete integration with external payment provider.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "role": "Product Manager"
+      },
+      "created_at": "2026-02-14T10:00:00",
+      "updated_at": "2026-02-19T09:15:00",
+      "deadline": "2026-02-21"
+    },
+    {
+      "id": "jira_2",
+      "title": "Fix API timeout errors",
+      "description": "Investigate timeout spikes in staging.",
+      "status": "blocked",
+      "priority": "critical",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "role": "QA Lead"
+      },
+      "created_at": "2026-02-15T11:30:00",
+      "updated_at": "2026-02-19T08:00:00",
+      "deadline": "2026-02-20"
+    },
+    {
+      "id": "jira_3",
+      "title": "Resolve transaction failure bug",
+      "description": "Users unable to complete checkout.",
+      "status": "blocked",
+      "priority": "critical",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "role": "QA Lead"
+      },
+      "created_at": "2026-02-16T09:00:00",
+      "updated_at": "2026-02-19T09:00:00",
+      "deadline": "2026-02-20"
+    },
+    {
+      "id": "jira_4",
+      "title": "Security review before beta release",
+      "description": "Conduct security audit before beta.",
+      "status": "todo",
+      "priority": "high",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "avatar": "https://company.com/avatars/bob.png"
+      },
+      "created_by": {
+        "name": "James Carter",
+        "email": "cto@company.com",
+        "role": "CTO"
+      },
+      "created_at": "2026-02-17T14:20:00",
+      "updated_at": "2026-02-18T12:00:00",
+      "deadline": "2026-02-22"
+    },
+    {
+      "id": "jira_5",
+      "title": "Prepare Beta Launch checklist",
+      "description": "Finalize checklist for beta release.",
+      "status": "in_progress",
+      "priority": "medium",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "avatar": "https://company.com/avatars/bob.png"
+      },
+      "created_by": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "role": "Product Manager"
+      },
+      "created_at": "2026-02-15T13:10:00",
+      "updated_at": "2026-02-19T10:45:00",
+      "deadline": "2026-02-22"
+    },
+  
+    {
+      "id": "jira_6",
+      "title": "Update landing page layout",
+      "description": "Apply revised layout from design.",
+      "status": "in_progress",
+      "priority": "medium",
+      "project": "Website Redesign",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Marketing Team",
+        "email": "marketing@company.com",
+        "role": "Marketing"
+      },
+      "created_at": "2026-02-14T09:30:00",
+      "updated_at": "2026-02-18T15:00:00",
+      "deadline": "2026-02-25"
+    },
+    {
+      "id": "jira_7",
+      "title": "Implement final design revisions",
+      "description": "Apply client-requested revisions v4.",
+      "status": "blocked",
+      "priority": "high",
+      "project": "Website Redesign",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "role": "Product Manager"
+      },
+      "created_at": "2026-02-16T11:00:00",
+      "updated_at": "2026-02-19T09:20:00",
+      "deadline": "2026-02-24"
+    },
+    {
+      "id": "jira_8",
+      "title": "Content alignment for campaign launch",
+      "description": "Align messaging with new branding.",
+      "status": "in_progress",
+      "priority": "medium",
+      "project": "Website Redesign",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Marketing Team",
+        "email": "marketing@company.com",
+        "role": "Marketing"
+      },
+      "created_at": "2026-02-17T10:10:00",
+      "updated_at": "2026-02-19T14:00:00",
+      "deadline": "2026-02-23"
+    },
+  
+    {
+      "id": "jira_9",
+      "title": "Optimize dashboard performance",
+      "description": "Reduce page load time below 2 seconds.",
+      "status": "in_review",
+      "priority": "high",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "avatar": "https://company.com/avatars/daniel.png"
+      },
+      "created_by": {
+        "name": "Client BetaApp",
+        "email": "client@betaapp.io",
+        "role": "Client"
+      },
+      "created_at": "2026-02-14T08:30:00",
+      "updated_at": "2026-02-19T12:30:00",
+      "deadline": "2026-02-24"
+    },
+    {
+      "id": "jira_10",
+      "title": "Investigate staging server load spike",
+      "description": "Analyze cause of recent server load increase.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "avatar": "https://company.com/avatars/daniel.png"
+      },
+      "created_by": {
+        "name": "Operations",
+        "email": "operations@company.com",
+        "role": "Operations"
+      },
+      "created_at": "2026-02-18T09:00:00",
+      "updated_at": "2026-02-19T14:00:00",
+      "deadline": "2026-02-21"
+    },
+  
+    {
+      "id": "jira_11",
+      "title": "Refactor authentication middleware",
+      "description": "Clean up legacy auth code.",
+      "status": "todo",
+      "priority": "low",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "avatar": "https://company.com/avatars/bob.png"
+      },
+      "created_by": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "role": "Backend Engineer"
+      },
+      "created_at": "2026-02-12T10:00:00",
+      "updated_at": "2026-02-17T10:00:00",
+      "deadline": "2026-03-01"
+    },
+    {
+      "id": "jira_12",
+      "title": "Add monitoring alerts for API failures",
+      "description": "Set up alerts for timeout spikes.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "James Carter",
+        "email": "cto@company.com",
+        "role": "CTO"
+      },
+      "created_at": "2026-02-18T13:00:00",
+      "updated_at": "2026-02-19T15:30:00",
+      "deadline": "2026-02-21"
+    },
+  
+    {
+      "id": "jira_13",
+      "title": "Client requested analytics export feature",
+      "description": "Add CSV export functionality.",
+      "status": "todo",
+      "priority": "medium",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "avatar": "https://company.com/avatars/daniel.png"
+      },
+      "created_by": {
+        "name": "Client BetaApp",
+        "email": "client@betaapp.io",
+        "role": "Client"
+      },
+      "created_at": "2026-02-19T09:00:00",
+      "updated_at": "2026-02-19T09:00:00",
+      "deadline": "2026-02-28"
+    },
+  
+    {
+      "id": "jira_14",
+      "title": "Improve mobile responsiveness",
+      "description": "Fix layout issues on smaller screens.",
+      "status": "in_progress",
+      "priority": "medium",
+      "project": "Website Redesign",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "role": "Product Manager"
+      },
+      "created_at": "2026-02-15T12:00:00",
+      "updated_at": "2026-02-18T11:00:00",
+      "deadline": "2026-02-26"
+    },
+  
+    {
+      "id": "jira_15",
+      "title": "Database index optimization",
+      "description": "Improve query performance for reporting.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "role": "QA Lead"
+      },
+      "created_at": "2026-02-17T10:00:00",
+      "updated_at": "2026-02-19T14:30:00",
+      "deadline": "2026-02-23"
+    },
+  
+    {
+      "id": "jira_16",
+      "title": "Accessibility compliance check",
+      "description": "Ensure WCAG compliance.",
+      "status": "todo",
+      "priority": "medium",
+      "project": "Website Redesign",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Marketing Team",
+        "email": "marketing@company.com",
+        "role": "Marketing"
+      },
+      "created_at": "2026-02-18T16:00:00",
+      "updated_at": "2026-02-18T16:00:00",
+      "deadline": "2026-02-27"
+    },
+  
+    {
+      "id": "jira_17",
+      "title": "Finalize deployment scripts",
+      "description": "Prepare scripts for production release.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "avatar": "https://company.com/avatars/bob.png"
+      },
+      "created_by": {
+        "name": "James Carter",
+        "email": "cto@company.com",
+        "role": "CTO"
+      },
+      "created_at": "2026-02-18T09:00:00",
+      "updated_at": "2026-02-19T15:00:00",
+      "deadline": "2026-02-22"
+    },
+  
+    {
+      "id": "jira_18",
+      "title": "Set up load testing environment",
+      "description": "Prepare environment for stress testing.",
+      "status": "in_progress",
+      "priority": "high",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "avatar": "https://company.com/avatars/daniel.png"
+      },
+      "created_by": {
+        "name": "Operations",
+        "email": "operations@company.com",
+        "role": "Operations"
+      },
+      "created_at": "2026-02-17T11:00:00",
+      "updated_at": "2026-02-19T14:00:00",
+      "deadline": "2026-02-24"
+    },
+  
+    {
+      "id": "jira_19",
+      "title": "Address client feedback on analytics UI",
+      "description": "Refine chart layouts per feedback.",
+      "status": "in_progress",
+      "priority": "medium",
+      "project": "Analytics Dashboard",
+      "assignee": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "avatar": "https://company.com/avatars/clara.png"
+      },
+      "created_by": {
+        "name": "Client BetaApp",
+        "email": "client@betaapp.io",
+        "role": "Client"
+      },
+      "created_at": "2026-02-18T10:00:00",
+      "updated_at": "2026-02-19T12:00:00",
+      "deadline": "2026-02-25"
+    },
+  
+    {
+      "id": "jira_20",
+      "title": "Emergency hotfix for production error",
+      "description": "Fix unexpected null pointer in live environment.",
+      "status": "blocked",
+      "priority": "critical",
+      "project": "Project Phoenix",
+      "assignee": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "avatar": "https://company.com/avatars/alice.png"
+      },
+      "created_by": {
+        "name": "James Carter",
+        "email": "cto@company.com",
+        "role": "CTO"
+      },
+      "created_at": "2026-02-19T16:00:00",
+      "updated_at": "2026-02-19T16:30:00",
+      "deadline": "2026-02-20"
+    }
+  ]

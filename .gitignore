@@ -1,6 +1,10 @@
-node_modules
-dist
-.DS_Store
-server/public
-vite.config.ts.*
-*.tar.gz
+frontend/node_modules
+frontend/dist
+frontend/.DS_Store
+frontend/server/public
+frontend/vite.config.ts.*
+frontend/*.tar.gz
+backend/.env
+backend/app/__pycache__
+backend/app/services/__pycache__
+backend/app/schemas/__pycache__

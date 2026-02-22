@@ -1,0 +1,242 @@
+[
+    {
+      "id": "slack_1",
+      "user": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "title": "Backend Engineer"
+      },
+      "channel": "#backend",
+      "message": "Still blocked on updated API documentation. Integration cannot proceed.",
+      "timestamp": "2026-02-18T09:15:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_2",
+      "user": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "title": "Frontend Engineer"
+      },
+      "channel": "#frontend",
+      "message": "Deadline for Phoenix is getting tight. We may need to escalate if API issues continue.",
+      "timestamp": "2026-02-18T10:40:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_3",
+      "user": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "title": "QA Lead"
+      },
+      "channel": "#qa",
+      "message": "Seeing another spike in timeout errors during testing.",
+      "timestamp": "2026-02-18T11:05:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_4",
+      "user": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "title": "Product Designer"
+      },
+      "channel": "#design",
+      "message": "Client requested additional revisions again. This is the third change in two days.",
+      "timestamp": "2026-02-18T13:20:00",
+      "project": "Website Redesign"
+    },
+    {
+      "id": "slack_5",
+      "user": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "title": "Backend Engineer"
+      },
+      "channel": "#backend",
+      "message": "API error rate increased in staging. Investigating root cause.",
+      "timestamp": "2026-02-18T14:30:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_6",
+      "user": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "title": "Product Manager"
+      },
+      "channel": "#product",
+      "message": "Reminder: Beta launch milestone is Feb 22. Please confirm readiness.",
+      "timestamp": "2026-02-18T15:45:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_7",
+      "user": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "title": "QA Lead"
+      },
+      "channel": "#operations",
+      "message": "Server load has increased steadily over the last 48 hours.",
+      "timestamp": "2026-02-18T16:10:00",
+      "project": "Analytics Dashboard"
+    },
+    {
+      "id": "slack_8",
+      "user": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "title": "Product Designer"
+      },
+      "channel": "#design",
+      "message": "Scope keeps expanding for Website Redesign. Hard to keep sprint stable.",
+      "timestamp": "2026-02-19T09:00:00",
+      "project": "Website Redesign"
+    },
+    {
+      "id": "slack_9",
+      "user": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "title": "Frontend Engineer"
+      },
+      "channel": "#general",
+      "message": "We’re juggling multiple urgent tasks this sprint. Feels overloaded.",
+      "timestamp": "2026-02-19T09:25:00",
+      "project": "General"
+    },
+    {
+      "id": "slack_10",
+      "user": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "title": "Backend Engineer"
+      },
+      "channel": "#backend",
+      "message": "Hotfix required for production error. This needs immediate attention.",
+      "timestamp": "2026-02-19T10:05:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_11",
+      "user": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "title": "QA Lead"
+      },
+      "channel": "#qa",
+      "message": "Blocking issue confirmed. Users cannot complete checkout.",
+      "timestamp": "2026-02-19T10:40:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_12",
+      "user": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "title": "Product Manager"
+      },
+      "channel": "#product",
+      "message": "Client seems concerned about performance. Might impact adoption.",
+      "timestamp": "2026-02-19T11:10:00",
+      "project": "Analytics Dashboard"
+    },
+    {
+      "id": "slack_13",
+      "user": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "title": "Product Designer"
+      },
+      "channel": "#design",
+      "message": "Marketing needs landing page assets finalized by Friday.",
+      "timestamp": "2026-02-19T11:40:00",
+      "project": "Website Redesign"
+    },
+    {
+      "id": "slack_14",
+      "user": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "title": "Backend Engineer"
+      },
+      "channel": "#backend",
+      "message": "Monitoring alerts triggered again for API failures.",
+      "timestamp": "2026-02-19T12:15:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_15",
+      "user": {
+        "name": "Bob Martinez",
+        "email": "bob@company.com",
+        "title": "Frontend Engineer"
+      },
+      "channel": "#frontend",
+      "message": "Frontend work is waiting on backend fixes. Timeline risk increasing.",
+      "timestamp": "2026-02-19T12:45:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_16",
+      "user": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "title": "QA Lead"
+      },
+      "channel": "#operations",
+      "message": "Load testing environment setup is delayed due to resource limits.",
+      "timestamp": "2026-02-19T13:10:00",
+      "project": "Analytics Dashboard"
+    },
+    {
+      "id": "slack_17",
+      "user": {
+        "name": "Sarah Kim",
+        "email": "sarah@company.com",
+        "title": "Product Manager"
+      },
+      "channel": "#product",
+      "message": "We may need to adjust scope to protect the deadline.",
+      "timestamp": "2026-02-19T13:40:00",
+      "project": "Website Redesign"
+    },
+    {
+      "id": "slack_18",
+      "user": {
+        "name": "Alice Johnson",
+        "email": "alice@company.com",
+        "title": "Backend Engineer"
+      },
+      "channel": "#backend",
+      "message": "Working late tonight to resolve transaction failures.",
+      "timestamp": "2026-02-19T19:15:00",
+      "project": "Project Phoenix"
+    },
+    {
+      "id": "slack_19",
+      "user": {
+        "name": "Clara Wong",
+        "email": "clara@company.com",
+        "title": "Product Designer"
+      },
+      "channel": "#design",
+      "message": "Another round of client feedback just came in.",
+      "timestamp": "2026-02-19T20:05:00",
+      "project": "Website Redesign"
+    },
+    {
+      "id": "slack_20",
+      "user": {
+        "name": "Daniel Lee",
+        "email": "daniel@company.com",
+        "title": "QA Lead"
+      },
+      "channel": "#qa",
+      "message": "If API issues persist tomorrow, we risk missing beta launch.",
+      "timestamp": "2026-02-19T21:10:00",
+      "project": "Project Phoenix"
+    }
+  ]
