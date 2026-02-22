@@ -60,7 +60,6 @@ mission-control/
 ├── frontend/
 │   ├── src/
 │   ├── package.json  
-|   |__ ...
 │
 └── README.md
 
