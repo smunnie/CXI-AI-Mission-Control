@@ -49,7 +49,7 @@ The backend enforces a strict Pydantic schema and uses Claude structured output 
 ---
 
 # 📂 Project Structure
-
+```
 mission-control/
 │
 ├── backend/
@@ -60,9 +60,10 @@ mission-control/
 ├── frontend/
 │   ├── src/
 │   ├── package.json 
-│
+│   |__ ... 
+|
 └── README.md
-
+```
 ---
 
 # ⚙️ Backend Setup (FastAPI)
