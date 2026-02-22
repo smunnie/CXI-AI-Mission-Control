@@ -82,7 +82,17 @@ export default function Dashboard() {
   const [filterSource, setFilterSource] = useState<string>("All");
   const [filterCategory, setFilterCategory] = useState<string>("All");
 
-  if (isLoading) return <DashboardSkeleton />;
+  if (isLoading){
+    return(
+      <>
+        <DashboardSkeleton />
+        {/* Demo polish overlay */}
+        <div className="fixed bottom-6 right-6 bg-card shadow-lg px-4 py-2 rounded-lg text-sm text-muted-foreground animate-pulse z-50">
+          <p>Analyzing team signals...</p>
+        </div>
+      </>
+    )
+  } 
   if (isError) return <DashboardError onRetry={() => refetch()} />;
   if (!data) return null;
 
